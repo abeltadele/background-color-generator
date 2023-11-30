@@ -1,0 +1,39 @@
+body{
+   margin: 0;
+   font-family: sans-serif;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+
+
+}
+.nav-bar a{
+    text-decoration-line: none;
+  
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h1{
+    background-color: black;
+    color: white;
+    padding: 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0 );
+    letter-spacing: 2px;
+}
+#btn{
+    background-color:white;
+    padding: 10px 30px;
+    font-size: medium;
+    letter-spacing: 2px;
+    border-color: grey;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0 );
+}
